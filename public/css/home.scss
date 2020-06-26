@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    nav {
+        display: flex;
+        flex-direction: row;
+        ul {
+            li {
+                margin: 0 .5rem;
+                padding: .5rem 1rem;
+                text-align: center;
+                min-width: 3rem;
+                border-radius: .5rem;
+                -webkit-border-radius: .5rem;
+                -moz-border-radius: .5rem;
+                -ms-border-radius: .5rem;
+                -o-border-radius: .5rem;
+                &.active {
+                    background-color: var(--cbp);
+                    color: var(--cwp);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+footer {
+    height: 10rem;
+    width: 100%;
+    margin-top: 2rem;
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .footer {
+        &>span {
+            display: block;
+        }
+    }
+}

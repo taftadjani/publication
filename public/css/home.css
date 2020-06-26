@@ -1,0 +1,43 @@
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 1rem;
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+}
+
+.pagination nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.pagination nav ul li {
+  margin: 0 .5rem;
+  padding: .5rem 1rem;
+  text-align: center;
+  min-width: 3rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.pagination nav ul li.active {
+  background-color: var(--cbp);
+  color: var(--cwp);
+}
+/*# sourceMappingURL=home.css.map */
